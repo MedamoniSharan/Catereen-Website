@@ -33,7 +33,7 @@ export default function Hero() {
     <section className={`hero ${ready ? 'is-ready' : ''}`} aria-label={BRAND.name}>
       <div className="hero-stage">
         <div className="hero-copy">
-          <img className="hero-logo hero-anim" src="/logo.png?v=blue" alt={BRAND.name} />
+          <img className="hero-logo hero-anim" src="/logo.png?v=download" alt={BRAND.name} />
           <p className="hero-badge hero-anim">Est. 2007 · Ramanthapur · Open 24/7</p>
           <h1>
             <span className="hero-line hero-anim">A feast for</span>

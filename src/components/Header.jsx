@@ -46,7 +46,7 @@ export default function Header() {
       <header className="site-header">
         <div className="container nav-wrap">
           <Link className="brand" to="/" onClick={() => setOpen(false)}>
-            <img src="/logo.png?v=blue" alt="Sree Priyadaarshini Catering logo" />
+            <img src="/logo.png?v=download" alt="Sree Priyadaarshini Catering logo" />
             <span className="brand-text">
               <strong>Sree Priyadaarshini</strong>
               <span>Catering · 24/7</span>

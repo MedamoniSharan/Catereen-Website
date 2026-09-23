@@ -80,11 +80,11 @@ export function VenusTestimonials() {
 
         <ScrollReveal variant="right" as="figure" className="venus-testimonials__visual" delay={120}>
           <img
-            src={SITE_IMAGES.testimonial}
+            src={`${SITE_IMAGES.testimonial}?v=2`}
             alt="Happy guest at a catered celebration"
             width={398}
             height={630}
-            loading="lazy"
+            loading="eager"
             decoding="async"
           />
           <figcaption>Made with care, remembered with joy.</figcaption>

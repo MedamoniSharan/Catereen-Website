@@ -18,7 +18,7 @@ export default function Footer() {
         <div className="container footer-venue-grid">
           <div className="footer-venue__brand">
             <Link className="footer-venue__logo" to="/">
-              <img src="/logo.png?v=blue" alt="Sree Priyadaarshini Catering logo" />
+              <img src="/logo.png?v=download" alt="Sree Priyadaarshini Catering logo" />
             </Link>
             <p className="footer-venue__tagline">For your happy feast</p>
           </div>
