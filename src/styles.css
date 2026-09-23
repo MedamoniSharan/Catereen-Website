@@ -121,7 +121,7 @@ button, input, select, textarea { font: inherit; }
   object-fit: cover;
   border-radius: 50%;
   border: 2px solid var(--gold);
-  background: var(--maroon-deep);
+  background: #0a1a4a;
 }
 .brand-text strong {
   display: block;

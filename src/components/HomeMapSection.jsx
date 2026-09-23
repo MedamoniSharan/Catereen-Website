@@ -29,6 +29,8 @@ export default function HomeMapSection() {
               <p>
                 <strong>Phone</strong><br />
                 <a href={`tel:+91${BRAND.phone}`}>+91 {BRAND.phone}</a>
+                <br />
+                <a href={`tel:+91${BRAND.phone2}`}>+91 {BRAND.phone2}</a>
               </p>
               <p>
                 <strong>Email</strong><br />

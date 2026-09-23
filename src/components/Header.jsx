@@ -7,6 +7,7 @@ const TOPBAR_TICKER = [
   'Serving 100 to 5,000 guests',
   '24/7 bookings & event support',
   `Call +91 ${BRAND.phone}`,
+  `Call +91 ${BRAND.phone2}`,
   BRAND.email,
 ];
 
@@ -19,7 +20,7 @@ export default function Header() {
     <>
       <div className="topbar">
         <p className="sr-only">
-          Est. 2007 Ramanthapur. Serving 100 to 5,000 guests. Open 24/7. Phone +91 {BRAND.phone}. Email {BRAND.email}.
+          Est. 2007 Ramanthapur. Serving 100 to 5,000 guests. Open 24/7. Phone +91 {BRAND.phone} / +91 {BRAND.phone2}. Email {BRAND.email}.
         </p>
         <div className="topbar-marquee" aria-hidden="true">
           <div className="topbar-marquee__track">
@@ -28,7 +29,7 @@ export default function Header() {
                 {item.includes('@') ? (
                   <a href={`mailto:${BRAND.email}`}>{item}</a>
                 ) : item.startsWith('Call') ? (
-                  <a href={`tel:+91${BRAND.phone}`}>{item}</a>
+                  <a href={`tel:+91${item.replace(/\D/g, '').slice(-10)}`}>{item}</a>
                 ) : item.includes('24/7') ? (
                   <>
                     <span className="badge-247">24/7</span>
@@ -45,7 +46,7 @@ export default function Header() {
       <header className="site-header">
         <div className="container nav-wrap">
           <Link className="brand" to="/" onClick={() => setOpen(false)}>
-            <img src="/logo.png" alt="Sree Priyadaarshini Catering logo" />
+            <img src="/logo.png?v=blue" alt="Sree Priyadaarshini Catering logo" />
             <span className="brand-text">
               <strong>Sree Priyadaarshini</strong>
               <span>Catering · 24/7</span>

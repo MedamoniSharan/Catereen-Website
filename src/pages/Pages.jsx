@@ -243,6 +243,7 @@ export function Contact() {
               <h3>Reach {BRAND.name}</h3>
               <p>📍 {BRAND.address}</p>
               <p>📱 <a href={`tel:+91${BRAND.phone}`}>+91 {BRAND.phone}</a></p>
+              <p>📱 <a href={`tel:+91${BRAND.phone2}`}>+91 {BRAND.phone2}</a></p>
               <p>✉️ <a href={`mailto:${BRAND.email}`}>{BRAND.email}</a></p>
               <p>📘 <a href={BRAND.facebook} target="_blank" rel="noopener">Facebook</a></p>
               <p>📸 <a href={BRAND.instagram} target="_blank" rel="noopener">Instagram</a></p>

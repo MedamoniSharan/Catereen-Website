@@ -3,6 +3,7 @@ import { photo, SITE_IMAGES } from './siteImages';
 export const BRAND = {
   name: 'Sree Priyadaarshini Catering',
   phone: '9502117008',
+  phone2: '9948884511',
   email: 'spcaters888@gmail.com',
   address: 'Ramanthapur',
   wa: 'https://wa.me/919502117008',
@@ -58,7 +59,7 @@ export const MENU_ITEMS = [
 export const BLOGS = [
   { slug: 'guest-count', title: 'How to estimate food for 100 to 5,000 guests', kicker: 'Planning', image: SITE_IMAGES.services.wedding, text: 'Share meal times, expected extras, and whether children eat from the same counters. We scale staff and vessels from 100 up to 5,000 without guessing on the day.' },
   { slug: 'wedding-menu', title: 'Building a wedding menu that still feels personal', kicker: 'Weddings', image: photo('photo-1556911220-e15b29be8c8f', 800), text: 'Pick from our full veg and non-veg books, then tailor regional favourites, live counters, and elder-friendly dishes with our team.' },
-  { slug: '24-7-support', title: 'What 24/7 catering support looks like', kicker: 'Corporate', image: SITE_IMAGES.services.corporate, text: 'Call or WhatsApp 9502117008 at any hour. Night-before guest spikes, early kitchen access, and post-event queries are part of how Sree Priyadaarshini Catering has worked since 2007.' }
+  { slug: '24-7-support', title: 'What 24/7 catering support looks like', kicker: 'Corporate', image: SITE_IMAGES.services.corporate, text: 'Call or WhatsApp 9502117008 or 9948884511 at any hour. Night-before guest spikes, early kitchen access, and post-event queries are part of how Sree Priyadaarshini Catering has worked since 2007.' }
 ];
 
 export const GALLERY = SITE_IMAGES.gallery;
